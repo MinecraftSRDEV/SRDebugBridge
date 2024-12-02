@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <LangVersion>latest</LangVersion>
+	<TargetFramework>net40</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>Enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>D:\crash bandicoot  n sane trilogy SETAM\steamapps\common\Slime Rancher — kopia\SlimeRancher_Data\Managed\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>D:\crash bandicoot  n sane trilogy SETAM\steamapps\common\Slime Rancher — kopia\SlimeRancher_Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
