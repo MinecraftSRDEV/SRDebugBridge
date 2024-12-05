@@ -128,14 +128,14 @@ namespace SRDebugBridgeNamespace
         {
             Debug.Log("Unloading debug bridge");
 
-            //UnityEngine.Object.DestroyObject(SRDebugBridge.debugGui);
+            UnityEngine.Object.DestroyObject(SRDebugBridge.debugGui);
             UnityEngine.Object.DestroyObject(SRDebugBridge.loggingSystem);
         }
 
         private static GameObject debugGui;
         private static GameObject loggingSystem;
 
-        public static string VERSION = "1.0";
+        public static string VERSION = "1.1";
 
         public static bool runningDebugger = false;
     }
